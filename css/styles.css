@@ -10,6 +10,46 @@ body {
   color: var(--primary_text-color);
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0%;
+}
+
+.h1 {
+  height: 120px;
+  width: 696px;
+}
+
+.business {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.benefits-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 1px solid red;
+}
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -35,13 +75,30 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .header {
   background-color: #ffffff;
 }
 
+.logo-link {
+  margin-right: 93px;
+}
+
 .header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,9 +106,18 @@ body {
   color: var(--title-color);
 }
 
+.header-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+}
+
+.header-group {
+  display: flex;
+  margin-left: auto;
 }
 
 .header-email,
@@ -63,13 +129,16 @@ body {
   color: var(--text-color);
 }
 
+.header-contact {
+  margin-left: 50px;
+}
+
 .service {
   background: #2f303a;
+  height: 600px;
 }
 
 .h1 {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -80,8 +149,8 @@ body {
 }
 
 .button {
+  padding: 10px 32px;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -95,13 +164,10 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  margin-top: 30px;
 }
 
 .button2 {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -121,8 +187,6 @@ body {
 }
 
 .peculiariti-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -132,13 +196,18 @@ body {
 }
 
 .peculiariti-descr {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.details:not(:last-child) {
+  margin-right: 30px;
+}
+
+.plan {
+  width: 270px;
 }
 
 .about {
@@ -146,14 +215,13 @@ body {
 }
 
 .work {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .team {
@@ -161,19 +229,16 @@ body {
 }
 
 .our-team {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .human {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -182,9 +247,12 @@ body {
   color: #212121;
 }
 
+.people {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .specialization {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -197,10 +265,20 @@ body {
   background: #2f303a;
 }
 
+.list2 {
+  list-style: none;
+}
+
+.logo-link2 {
+  margin-bottom: 20px;
+}
+
+.address2 {
+  flex-direction: row-reverse;
+}
+
 .street {
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -208,18 +286,18 @@ body {
 }
 
 .footer-contacts {
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.contacte {
+  margin-bottom: 9px;
+}
+
 .name {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -228,9 +306,6 @@ body {
 }
 
 .description {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
