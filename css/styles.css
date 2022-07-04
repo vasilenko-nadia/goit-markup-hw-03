@@ -46,8 +46,10 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
 
-  outline: 1px solid red;
+.about {
+  padding-bottom: 94px;
 }
 
 .logo-link {
@@ -198,7 +200,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .peculiariti-descr {
@@ -254,7 +256,6 @@ img {
 }
 
 .people {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -278,6 +279,8 @@ img {
 
 .list2 {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-link2 {
@@ -294,6 +297,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-contacts {
